@@ -1,0 +1,38 @@
+/* HEADER */
+header {
+  width: 100%;
+  position: absolute;
+  height: 824px;
+  background-image: url(../../images/hero_section_apartment.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50% 824px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  display: fixed;
+}
+
+.header_logo {
+  width: 181px;
+  height: 40px;
+}
+
+.navbar_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_list_item {
+  margin-left: 20px;
+  list-style: none;
+  font-family: Poppins;
+}
+
+.navbar_list_item:hover {
+  transform: scale(1.1);
+  color: #fe8934;
+  font-family: Poppins;
+}/*# sourceMappingURL=header.css.map */

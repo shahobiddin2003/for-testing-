@@ -1,0 +1,67 @@
+.container {
+  margin: 0 164px;
+}
+
+.visually_hidden {
+  margin: 20px;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  position: absolute;
+  height: 824px;
+  background-image: url(../../images/hero_section_apartment.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 711px 824px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  display: fixed;
+}
+
+.header_logo {
+  width: 181px;
+  height: 40px;
+}
+
+.navbar_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_list_item {
+  margin-left: 20px;
+  list-style: none;
+  font-family: Poppins;
+}
+
+.navbar_list_item:hover {
+  transform: scale(1.1);
+  color: #fe8934;
+  font-family: Poppins;
+}
+
+.hero_section {
+  width: 1112px;
+  background-position-x: 100px;
+  background-repeat: no-repeat;
+}
+.hero_section .hero_section_inform {
+  width: 520px;
+  height: 350px;
+  font-family: Poppins;
+  padding-top: 150px;
+  margin-bottom: 35px;
+}
+.hero_section .hero_section_inform .hero_section_button {
+  background-color: #3456fe;
+  border: none;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  margin-top: 35px;
+}/*# sourceMappingURL=blocks.css.map */
